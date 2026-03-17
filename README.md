@@ -1,84 +1,172 @@
-# SERP SexChatHU Downloader
+# SexChatHU Downloader (Browser Extension)
 
-**Download streams from SexChatHU — live capture, any quality, saved as MP4.**
+> Record SexChatHU live streams and download saved videos as MP4 files for offline viewing.
 
-SERP SexChatHU Downloader is a browser extension that lets you record live streams and download recordings from SexChatHU.com with a single click. Visit any model's page, choose your preferred quality, and capture the stream directly to your computer as a standard MP4 file. VR streams are fully supported. Includes 3 free downloads to get started.
+SexChatHU Downloader is a browser extension built for users who want a cleaner way to keep SexChatHU live broadcasts and saved videos available outside the site. It detects supported video streams directly in the browser, lets you choose from available qualities, and saves finished captures as MP4 files that are easier to replay later.
 
-**Product page:** [https://serp.ly/sexchathu-video-downloader](https://serp.ly/sexchathu-video-downloader)<br>
-**Help center:** [https://help.serp.co/en/](https://help.serp.co/en/)<br>
-**Latest release:** [https://github.com/serpapps/sexchathu-video-downloader/releases/latest](https://github.com/serpapps/sexchathu-video-downloader/releases/latest)
+- Record active SexChatHU live streams while they are broadcasting
+- Download saved videos from supported model pages
+- Preserve supported VR captures with playback-friendly metadata when available
+- Choose from the stream qualities exposed on the page
+- Save MP4 files for easier offline playback and archiving
 
-## Why SERP SexChatHU Downloader?
+## Links
 
-SexChatHU streams cannot be saved with a simple right-click, and live broadcasts require continuous recording rather than a one-time file download. Generic downloaders fail because they cannot reliably detect SexChatHU content. This extension is purpose-built for the site — detection is reliable and capture is seamless every time.
+- 🚀 Get it here: [SexChatHU Downloader](https://serp.ly/sexchathu-video-downloader)
+- 🆕 Latest release: [GitHub Releases](https://github.com/serpapps/sexchathu-downloader/releases/latest)
+- ❓ Help center: [SERP Help](https://help.serp.co/en/)
+- 🐛 Report bugs: [GitHub Issues](https://github.com/serpapps/sexchathu-downloader/issues)
+- 💡 Request features: [Feature Requests](https://github.com/serpapps/sexchathu-downloader/issues)
 
-## Key Features
+## Preview
 
-- **Live stream recording** — Start and stop capture whenever you want during a live broadcast.
-- **One-click downloads** — A download button appears right on the video player.
-- **VR stream support** — VR broadcasts detected automatically with metadata preserved.
-- **Quality selection** — All available resolutions, sorted highest first.
-- **Download manager** — Real-time progress with speed indicators and elapsed time.
-- **Right-click menu** — "Download SexChatHU Stream" context menu for quick access.
-- **Auto-organized saves** — Videos go to a SEXCHATHU folder in your Downloads directory.
-- **Desktop notifications** — Get notified when a download or capture finishes.
-- **Cross-browser** — Chrome, Edge, Brave, Opera, Whale, Yandex, and Firefox.
+![SexChatHU Downloader workflow preview](assets/workflow-preview.svg)
+
+## Table of Contents
+
+- [Why SexChatHU Downloader](#why-sexchathu-downloader)
+- [Features](#features)
+- [How It Works](#how-it-works)
+- [Step-by-Step Tutorial: How to Download Videos from SexChatHU](#step-by-step-tutorial-how-to-download-videos-from-sexchathu)
+- [Supported Formats](#supported-formats)
+- [Who It's For](#who-its-for)
+- [Common Use Cases](#common-use-cases)
+- [Troubleshooting](#troubleshooting)
+- [Trial & Access](#trial--access)
+- [Installation Instructions](#installation-instructions)
+- [FAQ](#faq)
+- [Notes](#notes)
+- [About SexChatHU](#about-sexchathu)
+
+## Why SexChatHU Downloader
+
+SexChatHU is built for live browser viewing, not for straightforward offline saving. Live rooms end, saved videos are not always offered with a simple download flow, and generic downloader extensions often miss protected or short-lived stream URLs.
+
+SexChatHU Downloader is built specifically for that workflow. It focuses on supported SexChatHU pages, detects the active media in your current browser session, and gives you a simpler way to keep accessible content locally without switching to desktop capture tools or manual stream inspection.
+
+## Features
+
+- Live stream recording for active SexChatHU rooms
+- Saved video downloads from supported model pages
+- VR stream support when compatible media is exposed
+- Quality selection for available resolutions and stream variants
+- In-page controls on supported video pages
+- Popup workflow for starting and managing captures
+- Right-click access for a faster recording flow
+- MP4 output for easier playback and transfer
+- Automatic saving into a dedicated SEXCHATHU folder
+- Cross-browser support for Chrome, Edge, Brave, Opera, Firefox, Whale, and Yandex
 
 ## How It Works
 
-1. **Install** — Add SERP SexChatHU Downloader to your browser from the product page or latest release.
-2. **Browse** — Go to SexChatHU.com and open any model's page.
-3. **Click** — Use the download button on the player, the extension icon in your toolbar, or the right-click context menu.
-4. **Capture** — Choose your quality. For live streams, hit Start and Stop when finished. For recorded videos, hit Download. Saves as MP4.
+1. Install the extension from the latest release.
+2. Open SexChatHU and go to a live room or saved video page.
+3. Start playback so the extension can detect the stream.
+4. Open the popup or use the on-page controls.
+5. Choose the quality or stream option you want.
+6. Record the live session or download the saved video.
+7. Save the final MP4 file locally.
+
+## Step-by-Step Tutorial: How to Download Videos from SexChatHU
+
+1. Install SexChatHU Downloader from the latest GitHub release.
+2. Open SexChatHU and sign in if the page requires account access.
+3. Visit the live room, saved video page, or supported VR page you want to keep.
+4. Let the player load fully and press play.
+5. Click the extension button or the on-page control.
+6. Review the quality options shown by the extension.
+7. For live rooms, start recording and stop it when the session is finished.
+8. For saved videos, click download and wait for the MP4 export to complete.
+9. Open the finished file from your Downloads folder.
 
 ## Supported Formats
 
-| Output | Details |
-|--------|---------|
-| **MP4** | All downloads and recordings save as standard MP4 files |
-| **Quality** | Multiple resolutions available, sorted highest to lowest |
-| **VR** | VR streams captured with stereoscopic metadata in the filename |
+- Input: SexChatHU live streams
+- Input: SexChatHU saved videos
+- Input: Supported SexChatHU VR streams
+- Output: MP4
 
-All saved files play on any device, media player, or video editor without conversion.
+Saved files use MP4 so they are easier to replay on standard media players, transfer between devices, or archive for later access.
 
 ## Who It's For
 
-- SexChatHU viewers who want to save live broadcasts for offline viewing
-- Users who prefer to watch on their own schedule without an internet connection
-- Anyone who wants a simple way to save SexChatHU content without desktop software
+- SexChatHU viewers who want to keep live rooms before they end
+- Users who want offline access to saved videos they can already watch
+- VR viewers who want to preserve supported immersive content
+- People archiving content they are permitted to keep
+- Anyone who wants a browser-based workflow instead of manual capture software
 
 ## Common Use Cases
-- Record a live stream and watch it later at your convenience
-- Download recorded videos from a model's profile in your preferred resolution
-- Capture VR streams for playback on VR devices
-- Save multiple streams throughout the day with the download manager
+
+- Record a SexChatHU live broadcast to watch later
+- Download a saved video from a model page
+- Keep local copies of content before it disappears from easy access
+- Save supported VR content for later playback on compatible devices
+- Download the best quality exposed by the page
+
+## Troubleshooting
+
+**The extension is not detecting the stream**  
+Press play first and wait a few seconds so the stream has time to initialize.
+
+**The page control is missing**  
+Open the extension popup directly. Some supported pages work better through the popup UI.
+
+**Only one quality option is listed**  
+That usually means the page is exposing a single playable stream variant.
+
+**The recording stopped too early**  
+Check whether the live session ended or your internet connection dropped during capture.
+
+**The page requires account or paid access**  
+The extension only works on media you can already open and play in your active browser session.
 
 ## Trial & Access
 
-Includes **3 free downloads** after signing in with your email — no credit card required. Upgrade to an unlimited license for continued access.
+- Includes **3 free downloads** so you can test the workflow first
+- Email sign-in uses secure one-time password verification
+- No credit card required for the trial
+- Unlimited downloads are available with a paid license
+
+Start here: [https://serp.ly/sexchathu-video-downloader](https://serp.ly/sexchathu-video-downloader)
+
+## Installation Instructions
+
+1. Open the latest release page:
+   [https://github.com/serpapps/sexchathu-downloader/releases/latest](https://github.com/serpapps/sexchathu-downloader/releases/latest)
+2. Download the extension build for your browser.
+3. Install the extension.
+4. Open SexChatHU and navigate to a live room or saved video.
+5. Use the extension controls to start recording or downloading.
 
 ## FAQ
-**How do I record a live stream?** Open a model's page while they are live, click the download button or extension icon, select quality, and click Start. Click Stop when done — the recording saves as MP4.
 
-**Can I download recorded videos?** Yes. Go to a model's recorded video page, select quality, and click Download.
+**Can I record SexChatHU live streams?**  
+Yes. Active SexChatHU live rooms can be recorded while they are broadcasting.
 
-**What format are the saved files?** MP4. Plays on any device or media player without conversion.
+**Can I download saved videos too?**  
+Yes. The extension supports saved SexChatHU videos on supported pages.
 
-**Does it support VR streams?** Yes. VR streams are detected automatically with metadata appended to the filename.
+**Does it support VR streams?**  
+Yes, when SexChatHU exposes compatible VR-capable media for that page.
 
-**Where do my downloads go?** A SEXCHATHU subfolder inside your browser's default Downloads directory.
+**What file format do downloads use?**  
+Videos are saved as MP4 files.
 
-**Which browsers are supported?** Chrome, Edge, Brave, Opera, Whale, Yandex, and Firefox.
+**Where are videos saved?**  
+They are saved to your default Downloads location, typically inside a SEXCHATHU subfolder.
 
-**Is my data safe?** All processing happens locally in your browser. Sign-in uses secure one-time-password verification.
+**Do I need extra software?**  
+No. Everything runs through the browser extension.
 
-## Notes (Important)
-- The model must be live and streaming publicly for live capture. Private or offline rooms cannot be recorded.
-- Recorded video availability depends on the model and the site.
-- Quality depends on the source. The extension cannot upscale beyond the original resolution.
-- An internet connection is required during download or capture.
-- Users are responsible for ensuring they have the right to download content. This extension is intended for content you own or have permission to download.
+## Notes
 
-## Get It
+- Only download content you own or have explicit permission to save
+- An internet connection is required for live capture and downloads
+- Live recording only works while the creator is actively streaming
+- Some pages may require account access, paid access, or membership
+- VR support depends on the media exposed by SexChatHU for that stream
 
-**[SERP SexChatHU Downloader](https://serp.cc/VDM-sexchathu-video-downloader)**
+## About SexChatHU
+
+SexChatHU combines live rooms with saved video content, which makes offline access more awkward than on ordinary video sites. Stream protection, live-only sessions, and page-specific playback behavior all add friction for users who want a local copy. SexChatHU Downloader simplifies that workflow inside the browser for users who already have legitimate access to the content.
